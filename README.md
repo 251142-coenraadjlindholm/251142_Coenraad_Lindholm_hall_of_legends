@@ -63,10 +63,11 @@ hall_of_legends/
 |-- login.php
 |-- logout.php
 |-- register.php
-|-- Bronze.png / Silver.png / Gold.png
-|-- Platinum.png / Diamond.png
-|-- Celeste.jpg / Hades.jpg / Hollowknight.jpg / Melania.jpg
-|-- ER Diagram for Hall of Legends.png
+|-- Images/
+|   |-- Bronze.png / Silver.png / Gold.png
+|   |-- Platinum.png / Diamond.png
+|   |-- Celeste.jpg / Hades.jpg / Hollowknight.jpg / Melania.jpg
+|   `-- ER Diagram for Hall of Legends.png
 `-- README.md
 ```
 
@@ -138,7 +139,7 @@ The schema includes:
 
 ## ER diagram
 
-![ER Diagram for Hall of Legends](ER%20Diagram%20for%20Hall%20of%20Legends.png)
+![ER Diagram for Hall of Legends](Images/ER%20Diagram%20for%20Hall%20of%20Legends.png)
 
 ## Notes
 

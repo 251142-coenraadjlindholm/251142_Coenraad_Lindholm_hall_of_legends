@@ -104,22 +104,22 @@ function calculate_rank($rep) {
 function rank_symbol_image($rep) {
     $rank = calculate_rank($rep);
     $map = [
-        'Diamond Legend' => 'Diamond.png',
-        'Platinum Legend' => 'Platinum.png',
-        'Gold Legend' => 'Gold.png',
-        'Silver Legend' => 'Silver.png',
-        'Bronze Legend' => 'Bronze.png',
+        'Diamond Legend' => 'Images/Diamond.png',
+        'Platinum Legend' => 'Images/Platinum.png',
+        'Gold Legend' => 'Images/Gold.png',
+        'Silver Legend' => 'Images/Silver.png',
+        'Bronze Legend' => 'Images/Bronze.png',
     ];
 
-    return $map[$rank] ?? 'Bronze.png';
+    return $map[$rank] ?? 'Images/Bronze.png';
 }
 
 function game_cover_image($game) {
     $map = [
-        'Celeste' => 'Celeste.jpg',
-        'Elden Ring' => 'Melania.jpg',
-        'Hollow Knight' => 'Hollowknight.jpg',
-        'Hades' => 'Hades.jpg',
+        'Celeste' => 'Images/Celeste.jpg',
+        'Elden Ring' => 'Images/Melania.jpg',
+        'Hollow Knight' => 'Images/Hollowknight.jpg',
+        'Hades' => 'Images/Hades.jpg',
     ];
 
     return $map[$game] ?? null;
